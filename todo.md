@@ -1,0 +1,40 @@
+# Todo - Assistente de Marketing Digital
+
+- [x] 001 definir_estrutura_do_projeto()
+- [x] 002 configurar_template_nextjs_moderno()
+- [x] 003 implementar_autenticacao_e_controle_de_planos()
+  - [x] Instalar next-auth
+  - [x] Configurar D1 Database (wrangler.toml, migrations)
+  - [x] Definir schema do banco de dados (usuários, produtos)
+  - [x] Aplicar migrações iniciais
+  - [x] Configurar provedor de autenticação (Email/Credentials) e Adaptador D1
+  - [x] Criar rotas API para autenticação
+  - [x] Criar lógica/API para buscar/atualizar contagem de produtos e plano do usuário
+- [x] 004 criar_interfaces_responsivas_para_web_app()
+  - [x] Tela de Login
+  - [x] Tela Inicial/Dashboard
+  - [x] Formulário de Criação de Produto (Nicho)
+  - [x] Formulário de Criação de Produto (Ideia Pronta)
+  - [x] Visualização de Produto Criado
+  - [x] Página de Upgrade de Plano
+- [x] 005 integrar_api_ia_openrouter_para_geracao_de_conteudo()
+  - [x] Criar função para chamar API OpenRouter
+  - [x] Implementar geração baseada em nicho
+  - [x] Implementar geração baseada em ideia pronta
+  - [x] Implementar geração de placeholders de imagem
+- [x] 006 implementar_logica_para_limites_do_plano_gratuito_e_upgrade()
+  - [x] Verificar limite de produtos antes da criação
+  - [x] Exibir aviso de limite e bloquear criação
+  - [x] Implementar botão "Já paguei" para upgrade manual
+  - [x] Adicionar link WhatsApp na página de upgrade
+- [x] 007 preparar_sistema_para_futuras_integracoes_de_api_de_imagem_e_video()
+  - [x] Estruturar código para fácil adição de APIs
+  - [x] Usar placeholders para imagens geradas
+- [x] 008 validar_funcionalidades_e_experiencia_do_usuario()
+  - [x] Testar fluxo de criação (nicho e ideia)
+  - [x] Testar autenticação e controle de planos
+  - [x] Testar responsividade
+  - [x] Testar upgrade manual
+- [x] 009 reportar_e_enviar_link_para_acesso_ao_web_app()
+  - [ ] Fazer deploy da aplicação (Falhou, fornecer zip)
+  - [ ] Enviar URL pública para o usuário (Enviar zip)
